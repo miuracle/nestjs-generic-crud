@@ -1,0 +1,31 @@
+{
+  "name": "@miuracle/nestjs-generic-crud",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miuracle/nestjs-generic-crud.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "miuracle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miuracle/nestjs-generic-crud/issues"
+  },
+  "homepage": "https://github.com/miuracle/nestjs-generic-crud#readme",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
